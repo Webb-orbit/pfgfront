@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   server:{
     proxy:{
-      "/api":"http://localhost:3000"
+      "/api":"https://aipdf-production.up.railway.app"
     }
   },
   plugins: [react()],
